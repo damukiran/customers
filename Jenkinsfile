@@ -7,7 +7,7 @@ pipeline {
         
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/damukiran/Books.git'
+        git 'https://github.com/damukiran/customers.git'
       }
     }
         
